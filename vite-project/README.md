@@ -1,12 +1,45 @@
-# React + Vite
+# 🌍 Travel Journal — React + Vite ✈️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant travel journal web app built with **React** and **Vite**. Log your adventures, show off destination pics, and relive your favorite trips with smooth card layouts and clean UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Setup
 
-## Expanding the ESLint configuration
+This project was bootstrapped with **[Vite](https://vitejs.dev/)** — a fast and modern build tool that offers lightning-fast hot module replacement (HMR) and easy React integration.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧪 Tech Stack
+
+- ⚛️ **React**
+- ⚡ **Vite**
+- 🎨 **CSS3**
+- 📦 **npm**
+- 🧹 **ESLint** (with basic rules)
+
+---
+
+## 📸 Features
+
+- 📍 Dynamic travel cards with location, description & image
+- 💻 Responsive design with flexbox layouts
+- ✨ Hover effects for an interactive experience
+- 💅 Easy to customize and extend
+
+---
+
+## 📁 Folder Structure
+Travel-Journal/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/ # Image files (e.g. vicfalls.png, paris.png)
+│ ├── components/ # (optional) You can move TravelJournal here
+│ ├── TravelJournal.js # Travel card component
+│ ├── TravelJournal.css # Styling for the cards
+│ ├── App.js
+│ └── main.jsx
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+
